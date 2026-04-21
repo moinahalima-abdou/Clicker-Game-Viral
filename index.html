@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clicker Mobile</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>🔥 Clicker Mobile</h1>
+
+<div class="score">
+    Points : <span id="score">0</span>
+</div>
+
+<div class="power">
+    Puissance : <span id="power">1</span>
+</div>
+
+<button onclick="clickBtn()" class="main-btn">CLIQUE !</button>
+
+<div class="shop">
+    <h2>🛒 Améliorations</h2>
+
+    <button onclick="buyPower()">+1 puissance (10 points)</button>
+    <button onclick="prestige()">🔥 Prestige (reset + bonus)</button>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
+
+
