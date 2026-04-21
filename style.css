@@ -1,0 +1,41 @@
+body {
+    font-family: Arial;
+    text-align: center;
+    background: #0b1220;
+    color: white;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    color: #38bdf8;
+}
+
+.score, .power {
+    font-size: 25px;
+    margin: 10px;
+}
+
+.main-btn {
+    padding: 25px 50px;
+    font-size: 22px;
+    border: none;
+    border-radius: 15px;
+    background: #38bdf8;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.main-btn:active {
+    transform: scale(0.95);
+}
+
+.shop button {
+    display: block;
+    margin: 10px auto;
+    padding: 15px;
+    background: #1e293b;
+    color: white;
+    border: none;
+    border-radius: 10px;
+}
